@@ -1,0 +1,5 @@
+.DS_Store
+.tmp_cookie
+thumbs.db
+*.log
+node_modules/*
