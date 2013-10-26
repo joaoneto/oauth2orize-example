@@ -128,8 +128,8 @@ module.exports = function (app) {
       models.Client.findById(clientID, function (err, client) {
         if (err) return done(err);
         if (!client) return done(null, false);
-        // if (!client.redirect_uri != redirectURI) return done(null, false);
-        return done(null, client, client.user_id);
+         if (!client.redirect_uri != redirectURI) return done(null, false);
+        return done(null, client, redirectURI);
       });
     }),
     function (req, res) {
