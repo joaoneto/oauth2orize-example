@@ -36,3 +36,4 @@ echo $(curl -b $COOKIE_TMP_FILE -H "Authorization: Bearer $ACCESS_TOKEN" -v "htt
 
 # Logout
 echo $(curl http://localhost:3000/logout -b $COOKIE_TMP_FILE -d "" --silent)
+rm $COOKIE_TMP_FILE
