@@ -35,7 +35,7 @@ Change `CLIENT_ID="XXXXXXXXXXXXXXXXXXXXXXXX"`, replace X with your client_id.
     $ ./client_oauth.sh
 ```
 
-## [Contribuitors](https://github.com/joaoneto/oauth2orize-example/graphs/contributors)
+## [Contributors](https://github.com/joaoneto/oauth2orize-example/graphs/contributors)
 
 ## License
 
